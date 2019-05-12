@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i&subset=cyrillic');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(143, 140, 140);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.container{
+    width:900px;
+    margin: 0 auto;
+}
+
+.page-nav {
+    padding: 77px 0 103px 0;
+}
+ 
+ .site-navigation {
+     vertical-align: middle;
+     text-align: center;
+ }
+
+ .site-navigation li{
+    display:inline-block;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14px;
+    text-align: center;
+}
+
+ .site-navigation li:not(:last-child){
+     margin-right:121px ;
+ }
+ 
+
+
+ .site-navigation a:hover,
+ .site-navigation a:focus {
+      color:black;
+ }
+ .features-list-item{
+     width:420px;
+     display:inline-block;
+     text-align: left;
+     margin-bottom:175px;
+     
+ }
+ 
+ .features-list{
+    list-style: none;
+    margin:0;
+    padding:0;
+    font-size: 0;
+ }
+ 
+ .features-list-item:not(:nth-child(2n)){
+     margin-right:60px;
+ }
+ .features-list-item p{
+     font-size:14px;
+     margin: 32px auto;
+     color:rgba(180, 173, 158, 255);
+     font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
+     text-align: left;
+}
+.features-list-item h3{
+    font-size:30px;
+    color:rgba(98, 98, 98, 255);
+    font-family:PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+}
+.features-list-item p:last-child{
+    font-family:PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+    margin-top:34px;
+}
+
+.features-list-item:nth-last-child(-n+2){
+    margin-bottom:0;
+}
+.features{
+    margin-bottom:54px;
+}
+.button:hover{
+    color: rgba(98, 98, 98, 255);  
+}
+
+.button{
+ border:0;
+ margin:0 371px 70px 358px;
+ padding: 21px 34px; 
+ font-size: 20px;
+ color: rgba(98, 98, 98, 255);  
+ background-color: white;
+ cursor: pointer;
+ align-content: center;
+}

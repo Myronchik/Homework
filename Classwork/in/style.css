@@ -1,0 +1,48 @@
+
+ /* @import url('https://fonts.googleapis.com/css?family=Gugi|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i'); */
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('C:\Users\Myron\Desktop\Проекти html\goit-fe-cours\homework04\HelveticaNeueCyr-Black.woff') format('woff'),
+        url('C:\Users\Myron\Desktop\Проекти html\goit-fe-cours\homework04\HelveticaNeueCyr-Black.ttf') format('ttf');
+    font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .conteiner{
+    background-color: blue;
+    padding: 100px 0;
+    margin: 200px auto;
+    width: 900px;
+}
+.title{
+
+margin: 0 auto;
+text-align: center;
+color:yellow;
+font-size: 9rem;
+font-weight: 900;
+font-family: "HelveticaNeueCyr";
+}  */ 
+
+.block1{
+    background-color: brown
+
+}
+
+.block2{
+    background-color:yellow; 
+}
+
+.block3{
+    background-color: green;
+}
+ 
+.conteiner{
+ display:flex;
+ 
+ flex-wrap: wrap;
+}
