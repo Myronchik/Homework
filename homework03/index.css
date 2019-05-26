@@ -98,16 +98,12 @@ html {
 .features{
     margin-bottom:54px;
 }
-.button:hover{
-    color: rgba(98, 98, 98, 255);  
-}
 
 .button{
- border:0;
+ border:1px solid #626262 ;
  margin:0 371px 70px 358px;
  padding: 21px 34px; 
  font-size: 20px;
- color: rgba(98, 98, 98, 255);  
  background-color: white;
  cursor: pointer;
  align-content: center;
