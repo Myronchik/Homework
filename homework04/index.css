@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
 
 * {
@@ -44,10 +43,11 @@ text-transform: uppercase;
 
 }
 
-.site-navigation a {
+.link {
     text-decoration:none;
     color:#0f0101;
     font-weight:bold;
+    display:block;
     
 }
 
@@ -221,7 +221,6 @@ font-size: 10pt;
     font-weight: 600;
     cursor: pointer;
 }
-
 
 
 
