@@ -8,9 +8,10 @@
 p {
     font-family: 'Playfair Display', serif;
 }
-a{
+.link{
     text-decoration: none;
     color:rgb(143, 140, 140);
+    display:block;
 }
 
 html {
@@ -35,6 +36,7 @@ html {
  .site-navigation {
      vertical-align: middle;
      text-align: center;
+     font-size: 0;
  }
 
  .site-navigation li{
@@ -52,7 +54,7 @@ html {
 
  .site-navigation a:hover,
  .site-navigation a:focus {
-      color:black;
+      color:#9addfb;
  }
  .features-list-item{
      width:420px;
@@ -65,6 +67,7 @@ html {
  .features-list{
     list-style: none;
     margin:0;
+    margin-bottom:54px;
     padding:0;
     font-size: 0;
  }
@@ -72,24 +75,30 @@ html {
  .features-list-item:not(:nth-child(2n)){
      margin-right:60px;
  }
- .features-list-item p{
+ .article{
      font-size:14px;
-     margin: 32px auto;
+     margin:0;
+     margin-bottom: 32px;
      color:rgba(180, 173, 158, 255);
      font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
      text-align: left;
 }
+
+img{
+    margin-bottom:32px;
+}
+
 .features-list-item h3{
     font-size:30px;
+    margin-bottom: 35px;
     color:rgba(98, 98, 98, 255);
     font-family:PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
 }
-.features-list-item p:last-child{
+.text{
     font-family:PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
     font-size: 14pt;
     color: rgba(98, 98, 98, 255);
     text-align: left;
-    margin-top:34px;
 }
 
 .features-list-item:nth-last-child(-n+2){
@@ -101,7 +110,7 @@ html {
 
 .button{
  border:1px solid #626262 ;
- margin:0 371px 70px 358px;
+ margin:0 371px 0 358px;
  padding: 21px 34px; 
  font-size: 20px;
  background-color: white;
