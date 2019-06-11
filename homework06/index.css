@@ -6,6 +6,9 @@
     margin: 0;
 }
 
+a {
+    display: block
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -44,6 +47,7 @@
     font-weight: 400;
     color: #95e1d3;
     text-decoration: none;
+    display: block
 }
 
 .item:last-child {
