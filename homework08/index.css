@@ -10,13 +10,13 @@
         }
         
             .page_header {
-                background: url(./img/main_img_mobile.png) no-repeat;
+                background: url(./img/main_img_mobile.png)rgba(0, 0, 0, 0.5) no-repeat;
                 background-size: cover;
                 height: 540px;
             }
         
             .container_for_link {
-                padding: 32px 0 130px 0;
+                padding: 21px 0 115px 0;
                 margin: 0 auto;
                 width:170px;
                 display: flex;
@@ -39,19 +39,27 @@
                 height: 18px;
                 margin-top: 13px;
                 
+                
             }
         
             .header_link2 {
                 text-decoration: none;
                 color: white;
                 font-size: 14px;
-                padding: 10px 17px 8px 16px;
+                padding: 12px 18px 10px 19px;
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 700;
                 border: 3px solid white;
                 border-radius: 25px;
                 width:56px;
+                height: 14px;
             }
+
+            .header_flex{
+                display:flex;
+                flex-direction: column;
+            }
+
         /* робота с текстом */
             .colorer {
                 font-family: 'Montserrat', sans-serif;
@@ -66,14 +74,14 @@
                 letter-spacing: 1px;
                 text-decoration: none;
                 display: block;
-                margin: 0 auto 35px;
+                margin: 0 auto 38px;
             }
         
             .header_title {
                 font-size: 30px;
                 font-family: "Montserrat";
                 font-weight: 700;
-                padding-bottom: 20px;
+                padding-bottom: 19px;
                 display: block;
                 margin: 0 auto;
                 width: 291px;
@@ -238,7 +246,7 @@
             }
         
         
-        @media  (min-width: 768px) {
+        @media (min-width: 768px) {
         
         /* картина сайта */
         
@@ -246,6 +254,11 @@
                 width: 532px;
             }
         
+            .container_for_link {
+                margin-left: 320px;
+                padding:38px 0 152px 0 ;
+            }
+
             .page_header {
                 background: url(./img/main_img.png)rgba(0, 0, 0, 0.5);
                 background-repeat: no-repeat;
@@ -257,28 +270,23 @@
         
         /* ссылки */
         
-            .header_link1 {
-                position: absolute;
-                top: 50px;
-                left: 550px;
-                margin: 0;
-            }
+           .header_link1{
+            margin-right: 20px;
+           }
         
-            .header_link2 {
-                position: absolute;
-                margin: 0;
-                top: 38px;
-                left: 620px;
+            
+            
+            .header_flex{
+                display:flex;
+                flex-direction: row-reverse;
+                width:669px;
+                margin: 0 auto;
             }
-        
         /* лого */
         
             .header_logo {
-                padding: 0;
+                padding: 46px 0 130px 0;
                 margin: 0;
-                position: absolute;
-                top: 50px;
-                left: 50px;
             }
         
             .special{
@@ -355,7 +363,7 @@
         
         }
         
-        @media all and (min-width: 1440px) {
+        @media(min-width: 960px) {
         
             .container {
                 width: 940px;
@@ -368,28 +376,6 @@
                 background-size: cover;
                 height: 700px;
                 position: relative;
-            }
-        
-            .header_link1 {
-                position: absolute;
-                top: 50px;
-                left: 1040px;
-                margin: 0;
-            }
-        
-            .header_link2 {
-                position: absolute;
-                margin: 0;
-                top: 38px;
-                left: 1110px;
-            }
-        
-            .header_logo {
-                padding: 0;
-                margin: 0;
-                position: absolute;
-                top: 50px;
-                left: 16%;
             }
         
             .header_title {
@@ -413,7 +399,12 @@
             }
         
             /* позиционирование */
-        
+            
+            .special{
+                width:915px;
+                margin:0 auto;
+            }
+
             .boder {
                 display: flex;
                 justify-content: space-around;
