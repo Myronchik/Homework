@@ -1,46 +1,47 @@
-@font-face {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../shrift/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Wisdom Script';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../shrift/Wisdom Script AI.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../shrift/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../shrift/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.header-container {
     width: 940px;
     margin: 0 auto;
 }
 
-/* Fonts */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
+}
 
+@font-face {
+    font-family: 'Wisdom Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Wisdom\ Script\ AI.woff2') format('woff2');
+}
 
-/* naver */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-style: italic;
+    src: url("./fonts/droidserifitalic.woff2") format("woff2"),
+  }
 
   .page-nav {
     display: flex;
@@ -49,53 +50,49 @@
     font-size: 0;
 }
 
-/* loger */
-
-  .logo {
+  .header-title {
     display: inline-block;
     font-family: 'Wisdom Script';
+    font-weight: 400;
+    font-style: normal;
     font-size: 26px;
     color: #fed136;
+    letter-spacing: 1px;
 }
-
-/* navigation */
-
-  .site-navigation {
+  .site-navig {
     list-style: none;
 }
-
-  .navigation-item {
+  .navig-item {
     display: inline-block;
     margin-right: 40px;
     padding: 11px 0 0 0;
 }
 
-  .navigation-item:last-child {
+  .navig-item:last-child {
     margin-right: 0;
 }
 
-  .navigation-link {
+  .navig-link {
+    display: block;
     text-decoration: none;
     color: black;
     font-size: 14px;
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-weight: 700;
-    display: block;
 }
 
-  .navigation-link:hover,
-  .navigation-link:focus {
+  .navig-link:hover,
+  .navig-link:focus {
     transition-property: color;
     transition-duration: 200ms;
     transition-timing-function: ease;
     color: #fed136;
 }
 
-/* zagolovok */
-
-.zagolovok {
-    font-family: 'Roboto Slab';
+.main-title {
+    font-family: "Montserrat";
+    font-weight: 700;
     font-size: 40px;
     color: black;
     text-align: center;
@@ -103,39 +100,37 @@
     text-transform: uppercase;
 }
 
-/* texter */
-
-.texter {
-    font-family: 'Roboto Slab';
+.subtitle {
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
     opacity: 0.6;
     color: #777777;
     padding-bottom: 75px;
 }
 
-/* boder deistvia */
+.service {
+    width: 274px;
+}
 
-.karman {
-    list-style: none;
+.list {
     display: flex;
     justify-content: space-between;
+    width:940px;
+    margin: 0 auto;;
 }
 
-.karman__item {
-    width: 312px;
-}
-
-.boder-img {
-    margin: 0 auto;
+.img {
+    margin: 0 auto 28px;
     display: block;
 }
 
-.boder-zagolovok {
+.list-title {
     font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
     padding-bottom: 16px;
-    padding-top: 28px;
 }
 
 .text {
@@ -146,47 +141,44 @@
     padding-bottom: 120px;
 }
 
-/* slovobludstvo */
-
 .index {
+    background: url(./img/country.png) no-repeat;
+    background-position: right;
+    background-size: cover;
     height: 676px;
     background-color: #222222;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
-.biger {
+.connection {
     padding-top: 110px;
     font-size: 40px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
+    letter-spacing: -1px;
     text-align: center;
     color: white;
     text-transform: uppercase;
+    padding-bottom: 23px;
 }
 
-.prot {
-    font-family: 'Roboto Slab';
+.info {
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
     text-align: center;
     color: #777777;
-    padding: 23px 0 75px 0;
+    padding: 0 0 75px 0;
 }
-
-.country {
-    position: absolute;
-    z-index: 1;
-    right: 2px;
-    top: 130px;
-}
-
-/* buttons */
 
 .pre-footer {
     display: flex;
     justify-content: center;
 }
 
-.inputerer {
+.inputer {
     display: flex;
     flex-direction: column;
 }
@@ -197,6 +189,14 @@
     border-radius: 6px;
     border: 2px solid #e4e4e4;
     margin-top: 25px;
+}
+
+.input:valid{
+    outline-color:green;
+}
+
+.input:invalid{
+    outline-color:red;
 }
 
 .input:first-child {
@@ -212,15 +212,20 @@
     text-transform: uppercase;
 }
 
-
-/* area */
-
 .text-area {
     width: 455px;
     height: 200px;
     border: 2px solid #e4e4e4;
     margin-left: 30px;
     border-radius: 6px;
+}
+
+.text-area:valid{
+    outline-color:green;
+}
+
+.text-area:invalid{
+    outline-color:red;
 }
 
 .text-area::placeholder {
@@ -231,8 +236,6 @@
     padding: 20px 0 0 20px;
     text-transform: uppercase;
 }
-
-/* submit */
 
 .submiter {
     width: 240px;
@@ -246,16 +249,4 @@
     font-size: 18px;
     text-transform: uppercase;
     color: white;
-}
-
-/* form */
-
-.invalided input:required:invalid,
-.invalided text-area:required:invalid {
-    border: 2px solid red;
-}
-
-.invalided input:required:valid,
-.invalided text-area:required:valid {
-    border: 2px solid green;
 }
