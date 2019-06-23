@@ -383,6 +383,14 @@
                 padding: 0 0 35px 0;
                 width: 568px;
             }
+
+            .container_for_link{
+                margin: 0 0 0 590px;
+            }
+
+            .header_flex{
+                width: 939px;
+            }
         
             .button {
                 margin: 0 auto;
